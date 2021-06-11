@@ -1,15 +1,75 @@
-
-h1 {
-    /* Put a 15-pixel margin at the bottom of the heading. */
-    margin-bottom: 15px;
-    /* Change the size of your font to 60 pixels high. */
-    font-size: 60px;
-    /* This will color the heading font white. */
-    color: white;
-    /* Align the text to the center of its enclosing element (e.g. div). */
+h2{
     text-align: center;
-    /* Underline the text. */
-    text-decoration: underline;
-    /* The background of the heading element will now be black. */
-    background-color: black;
-  }
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.firstbox {
+    width:200px;
+    height:200px;
+    background-color: red;
+    border: 2px solid rgb(1, 1, 12)
+
+}
+.secondbox {
+    width:200px;
+    height:200px;
+    background-color: rgb(42, 15, 119);
+    border: 2px dashed rgb(255, 230, 0);
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.thirdbox {
+    width:200px;
+    height:200px;
+    background-color: rgb(4, 129, 25);
+    border: 2px solid rgb(216, 25, 73)
+}
+
+h4 {
+    color:blue;
+     text-align: center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+    }
+.changeHeader{
+    color: blue
+}
+
+.buttonSet1 {
+    width: 10px;
+    height:5px;
+    color: rgb(103, 107, 103);
+    margin-inline: 10px;
+}
+
+h6 { 
+    text-align: center;
+    color:blue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.buttonSet2 {
+    width: 10ppx;
+    height:5px;
+    color: rgb(103, 107, 103);
+    margin:after 10px;
+    margin:top 40px;
+}
+.buttonSet3 {
+    width: 10ppx;
+    height:5px;
+    color: rgb(103, 107, 103);
+    margin:after 10px;
+}
+
+.row bu {
+    align-self: right;
+}
+
+.showAll{
+    margin-left: 600px;
+}
