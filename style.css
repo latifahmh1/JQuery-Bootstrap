@@ -169,4 +169,7 @@ h6 {
     border: 4px brown;
 }
 
-
+.changeallbox{
+    background: black;
+    border: 6px dashed gold;
+}
